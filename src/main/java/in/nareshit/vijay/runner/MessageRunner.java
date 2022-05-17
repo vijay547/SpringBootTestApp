@@ -10,6 +10,7 @@ public class MessageRunner implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		
 		int a =10;
+		int b=20;
 		try {
 			log.info("STARTED");
 			System.out.println("WELCOME TO SPRING BOOT APP!!+a");
